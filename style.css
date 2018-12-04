@@ -1,0 +1,29 @@
+
+nav {
+    background: url(./pictures/bg1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+ul a {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    font-size: 2.2em;
+    color: red;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.text-center {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 150px;
+}
