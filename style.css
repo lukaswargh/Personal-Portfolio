@@ -1,18 +1,20 @@
 body {
-    background-color: #474044;
+    background: url(/pictures/kaffikopp.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 nav {
-    background-color: #293132;
+    background-color: #000;
     border-bottom: 1px #fff solid;
 }
 
-ul a {
-    font-family: 'Ubuntu', sans-serif;
+i {
     color: white;
-    font-weight: bold;
-    font-size: 2em;
-    transition: 0.3s;
+}
+
+ul a {
+    transition: 0.4s;
+    color: #ffff;
 }
 
 ul a:hover {
@@ -20,66 +22,3 @@ ul a:hover {
     background-color: white;
 }
 
-.start {
-    height: 30vw;
-}
-
-.lukas-wargh {
-    color: #547AA5;
-    font-size: 50px;
-    text-shadow: 2px 2px 2px gray;
-    transition: 0.4s;
-}
-
-.lukas-wargh:hover {
-    color: #547AA5;
-}
-
-.beginning {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bold;
-    margin-top: 300px;
-    color: #fff;
-}
-
-
-.about {
-    background-color: #4F5165;
-    width: 100%;
-    height: 45vw;
-    margin-top: 150px;
-}
-
-.about h2 {
-    padding: 10vw;
-    color: #fff;
-    font-weight: bold;
-}
-
-.person {
-    font-size: 120px;
-    color: #fff;
-    transition: 0.4s
-}
-
-i {
-    font-size: 100px;
-    color: #fff;
-}
-
-.person:hover {
-    font-size: 135px;
-    color: #293132;
-}
-
-#carousel-text {
-    color: #fff;
-}
-
-.projects {
-    background-color: #293132;
-}
-
-#carouselExampleIndicators {
-    height: 38vw;
-}
