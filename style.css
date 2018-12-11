@@ -1,10 +1,10 @@
+body {
+    background-color: #474044;
+}
 
 nav {
-    background: url(./pictures/bg1.png);
-    background-attachment: ;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 15vw;
+    background-color: #293132;
+    border-bottom: 1px #fff solid;
 }
 
 ul a {
@@ -12,40 +12,74 @@ ul a {
     color: white;
     font-weight: bold;
     font-size: 2em;
-    margin-top: 35px;
+    transition: 0.3s;
 }
 
 ul a:hover {
-    color: red;
+    color: black;
     background-color: white;
+}
+
+.start {
+    height: 30vw;
+}
+
+.lukas-wargh {
+    color: #547AA5;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px gray;
+    transition: 0.4s;
+}
+
+.lukas-wargh:hover {
+    color: #547AA5;
 }
 
 .beginning {
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 300px;
+    color: #fff;
 }
 
-header {
-    background: url(./pictures/bg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 20vw;
-    width: 100%;
-    margin-top: 270px;
-}
 
 .about {
-    background-color: #D90429;
-    margin-top: -152px;
+    background-color: #4F5165;
+    width: 100%;
+    height: 45vw;
+    margin-top: 150px;
 }
 
 .about h2 {
-    padding: 25vw;
+    padding: 10vw;
     color: #fff;
     font-weight: bold;
 }
 
-.icon {
-    background-color: #ffff;
+.person {
+    font-size: 120px;
+    color: #fff;
+    transition: 0.4s
+}
+
+i {
+    font-size: 100px;
+    color: #fff;
+}
+
+.person:hover {
+    font-size: 135px;
+    color: #293132;
+}
+
+#carousel-text {
+    color: #fff;
+}
+
+.projects {
+    background-color: #293132;
+}
+
+#carouselExampleIndicators {
+    height: 38vw;
 }
