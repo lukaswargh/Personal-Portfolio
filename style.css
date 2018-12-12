@@ -3,7 +3,7 @@ html {
   }
 
 body {
-    background: url(/pictures/kaffikopp.jpg) no-repeat center center fixed;
+    background: url(/pictures/kaffikopp.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
@@ -30,6 +30,8 @@ i {
 ul a {
     transition: 0.4s;
     color: #ffff;
+    font-family: 'Ubuntu', 'open sans';
+    font-size: 25px;
 }
 
 ul a:hover {
