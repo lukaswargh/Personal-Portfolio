@@ -19,8 +19,7 @@ body {
 }
 
 nav {
-    background-color: rgb(26, 17, 17);
-    border-bottom: 1px #fff solid;
+    
 }
 
 i {
@@ -31,7 +30,10 @@ ul a {
     transition: 0.4s;
     color: #ffff;
     font-family: 'Ubuntu', 'open sans';
-    font-size: 25px;
+}
+
+ul li a {
+    font-size: 18px;
 }
 
 ul a:hover {
@@ -39,13 +41,27 @@ ul a:hover {
     background-color: white;
 }
 
-@media only screen (min-width: 785px) {
+@media only screen and (min-width: 785px) {
     ul a,
     h1,
     h2 {
         font-size: 24px;
     }
+    .form-write {
+        width: 100px;
+    }
     
+}
+
+
+
+.form-write {
+    width: 450px;
+    border: gray 1px solid;
+}
+
+.form-write:hover {
+    border-color: red;
 }
 
 
