@@ -1,11 +1,13 @@
 html {
     scroll-behavior: smooth;
-  }
-
+}
+/* BACKGROUND */
 body {
     background: url(/pictures/kaffikopp.jpg) no-repeat center fixed;
     background-size: cover;
 }
+
+/* CONTENT */
 
 .content {
     width: 100%;
@@ -18,12 +20,11 @@ body {
     font-size: 64px;
 }
 
-nav {
-    
-}
+
+/* NAV */
 
 i {
-    color: white;
+    color: #fff;
 }
 
 ul a {
@@ -41,22 +42,25 @@ ul a:hover {
     background-color: white;
 }
 
-@media only screen and (min-width: 785px) {
+/* CAROUSEL */
+
+.car-button {
+    color: black;
+}
+
+@media only screen and (max-width: 785px) {
+
     ul a,
     h1,
     h2 {
         font-size: 24px;
     }
-    .form-write {
-        width: 100px;
-    }
-    
 }
 
-
+/* Contact */
 
 .form-write {
-    width: 450px;
+    width: 45vw;
     border: gray 1px solid;
 }
 
@@ -64,4 +68,17 @@ ul a:hover {
     border-color: red;
 }
 
+.awesomeicons {
+    font-size: 30px;
+}
 
+.icons {
+    transition: 0.4s;
+    color: black;
+}
+
+
+.icons:hover {
+    color: red;
+    font-size: 34px;
+}
