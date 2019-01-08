@@ -23,6 +23,10 @@ body {
 
 /* NAV */
 
+nav {
+    background-color: rgb(126, 126, 126);
+}
+
 i {
     color: #fff;
 }
