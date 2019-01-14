@@ -52,12 +52,16 @@ ul a:hover {
     color: black;
 }
 
-@media only screen and (max-width: 785px) {
+@media only screen and (max-width: 812px) {
 
     ul a,
     h1,
     h2 {
         font-size: 24px;
+    }
+
+    .form-write {
+        width: 75vw;
     }
 }
 
@@ -69,6 +73,10 @@ ul a:hover {
 }
 
 .form-write:hover {
+    border-color: red;
+}
+
+.form-write:focus {
     border-color: red;
 }
 
